@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "name": "form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "parent": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "education": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "mergejil": {
+      "type": "string"
+    },
+    "dvn": {
+      "type": "string"
+    },
+    "startdate": {
+      "type": "string"
+    },
+    "enddate": {
+      "type": "string"
+    },
+    "jobname": {
+      "type": "string"
+    },
+    "jobcompany": {
+      "type": "string"
+    },
+    "jobbranch": {
+      "type": "string"
+    },
+    "jobstartdate": {
+      "type": "string"
+    },
+    "jobenddate": {
+      "type": "string"
+    },
+    "English": {
+      "type": "string"
+    },
+    "wordexcel": {
+      "type": "string"
+    },
+    "wordoffice": {
+      "type": "string"
+    },
+    "textspeed": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}
